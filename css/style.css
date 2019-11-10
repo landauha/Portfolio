@@ -162,19 +162,19 @@ nav ul li a.active-page{
 
 /* Beginning: for other pages, not hero or about*/
 
-.main{
+#main{
   text-align: center;
   padding: 20px 5% 20px 5%;
 }
 
-.main h1{
+#main h1{
   color: black;
   font-size: 2.5em;
   line-height: 1;
   padding-bottom: 30px;
 }
 
-.main p{
+#main p{
   color: #4b4b4b;
   font-size: 1em;
 }
@@ -376,7 +376,7 @@ input[type=email], select, textarea {
     font-size: 1em;
   }
 
-  .main{
+  #main{
     padding: 20px 10vw 20px 10vw;
   }
 
@@ -430,7 +430,7 @@ input[type=email], select, textarea {
     font-size: 1em;
   }
 
-  .main{
+  #main{
     padding: 20px 10vw 20px 10vw;
   }
 
