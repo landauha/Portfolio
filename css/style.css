@@ -212,11 +212,11 @@ nav ul li a.active-page{
 }
 
 #ND{
-  display: none;
-}
-
-.flip-card{
-  display: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  height: auto;
 }
 
 .about_grid_text{
@@ -360,6 +360,11 @@ input[type=email], select, textarea {
   .nav_container > li {
     flex-basis: 100%;
   }
+
+  #ND{
+    display: none;
+  }
+
 }
 
 /* End: MOBILE max width media query */
@@ -384,10 +389,6 @@ input[type=email], select, textarea {
   }
 
   #ND{
-    display: none;
-  }
-
-  .flip-card{
     display: none;
   }
 
