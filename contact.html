@@ -31,11 +31,7 @@
 
       <main id="main">
           <h1>Send me a message!</h1>
-            <p>XXXXXXXXXXXXX</p>
-            <br>
-            <p>XXXXXXXXXXXXX</p>
-            <br>
-            <p>XXXXXXXXXXXXX</p>
+            <p>If you would like to contact me, please fill out the form below. I will do my best to get back to you within 48 hours. I look forward to meeting you!</p>
             <br>
 
         <div class="form_container" id="parallax">
@@ -44,7 +40,7 @@
               <legend>Contact me</legend>
               <label for="name">Name:
                 <br>
-                <input type="text" id="name" required>
+                <input type="text" name="_name" id="name" required>
               </label>
               <br/>
               <label for="email">Email Address:
@@ -59,10 +55,10 @@
               <br/>
               <label>Please leave your note below:
                 <br/>
-                <input type="text" required>
+                <input type="text" name="message" id="message" required>
               </label>
               <br/>
-              <input type="submit" value="Send!" class="form_submit">
+              <button type="submit" class="form_submit">Send</button>
             </fieldset>
           </form>
         </div>
