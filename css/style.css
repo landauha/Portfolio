@@ -464,7 +464,7 @@ input[type=email], select, textarea {
 
   .skip a{
     -webkit-transition: top 0s auto;
-    transition: top 0s auto;
+    transition: none;
     z-index: 1;
   }
 
