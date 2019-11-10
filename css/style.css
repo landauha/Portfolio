@@ -459,21 +459,28 @@ input[type=email], select, textarea {
 
 @media screen and (prefers-reduced-motion: reduce){
   html{
-    scroll-behavior: auto; /* Removes scroll animation */
+    scroll-behavior: auto;
   }
 
   .skip a{
-    background: white;
-    left: 0;
-    padding: 6px;
-    position: absolute;
-    top: -40px;
-    -webkit-transition: /* Your code here - set to default setting */
-    transition: /* Your code here - set to default setting */
+    -webkit-transition: top 0s auto;
+    transition: top 0s auto;
     z-index: 1;
   }
 
   .skip a:focus{
     top:0;
+  }
+
+  .tracking-in-expand-fwd{
+    animation: none;
+  }
+
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(0deg);
+  }
+
+  .flip-card-back {
+    transform: rotateY(0deg);
   }
 }
