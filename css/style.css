@@ -158,6 +158,7 @@ nav ul li a.active-page{
   color: black;
   font-weight: bold;
 }
+
 /* End: for hero, not other pages */
 
 /* Beginning: for other pages, not hero or about*/
@@ -269,6 +270,10 @@ fieldset{
   padding: 10px;
 }
 
+legend{
+  text-decoration: underline;
+}
+
 label{
   color: black;
   font-family: 'Roboto', sans-serif;
@@ -343,6 +348,46 @@ textarea[type=text] {
     display: none;
   }
 
+  .hero_images{
+    display: grid;
+    grid-template-rows: 5;
+    grid-row-gap: 5px;
+    width: 25vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+  }
+
+  #artist_image{
+    grid-row: 1;
+    width: 25vw;
+    height: auto;
+  }
+
+  #husband_image{
+    grid-row: 2;
+    width: 25vw;
+    height: auto;
+  }
+
+  #father_image{
+    grid-row: 3;
+    width: 25vw;
+    height: auto;
+  }
+
+  #grandfather_image{
+    grid-row: 4;
+    width: 25vw;
+    height: auto;
+  }
+
+  #friend_image{
+    grid-row: 5;
+    width: 25vw;
+    height: auto;
+  }
+
 }
 
 /* End: MOBILE max width media query */
@@ -360,6 +405,44 @@ textarea[type=text] {
 
   .hero{
     top: 20vh;
+  }
+
+  .hero_images{
+    display: grid;
+    grid-template-columns: 5;
+    grid-column-gap: 5px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #artist_image{
+    grid-column: 1;
+    width: 10vw;
+    height: auto;
+  }
+
+  #husband_image{
+    grid-column: 2;
+    width: 10vw;
+    height: auto;
+  }
+
+  #father_image{
+    grid-column: 3;
+    width: 10vw;
+    height: auto;
+  }
+
+  #grandfather_image{
+    grid-column: 4;
+    width: 10vw;
+    height: auto;
+  }
+
+  #friend_image{
+    grid-column: 5;
+    width: 10vw;
+    height: auto;
   }
 
   #about_image{
@@ -414,6 +497,44 @@ textarea[type=text] {
 
   .hero{
     padding-top: 50%;
+  }
+
+  .hero_images{
+    display: grid;
+    grid-template-columns: 5;
+    grid-column-gap: 5px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #artist_image{
+    grid-column: 1;
+    width: 10vw;
+    height: auto;
+  }
+
+  #husband_image{
+    grid-column: 2;
+    width: 10vw;
+    height: auto;
+  }
+
+  #father_image{
+    grid-column: 3;
+    width: 10vw;
+    height: auto;
+  }
+
+  #grandfather_image{
+    grid-column: 4;
+    width: 10vw;
+    height: auto;
+  }
+
+  #friend_image{
+    grid-column: 5;
+    width: 10vw;
+    height: auto;
   }
 
   /* Beginning: for about.html */
