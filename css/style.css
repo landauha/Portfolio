@@ -179,7 +179,7 @@ nav ul li a.active-page{
   font-size: 1em;
 }
 
-#parallax{
+#parallax {
   background-attachment: fixed;
   background-image: url("../images/lightgray_marble.jpg");
   background-position: center;
@@ -188,7 +188,7 @@ nav ul li a.active-page{
 
   color: black;
   text-align: center;
-  height: 480px;
+  height: 520px;
   width: 100%;
 }
 
@@ -236,38 +236,6 @@ nav ul li a.active-page{
   color: #4b4b4b;
   font-size: 1em;
 }
-
-/* .flip-card {
-  background-color: transparent;
-  height: auto;
-  width: 70%;
-}
-
-.flip-card-inner {
-  position: relative;
-  height: auto;
-  width: 70%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-}
-
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-}
-
-.flip-card-back {
-  height: 353px;
-  width: 277px;
-  transform: rotateY(180deg);
-} */
 
 /* End: for about.html */
 
@@ -327,10 +295,20 @@ input[type=email], select, textarea {
   resize: vertical;
 }
 
+textarea[type=text] {
+  width: 70%;
+  padding: 12px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  resize: vertical;
+}
+
 .form_submit {
-  background: black;
+  background: white;
   border: 1px solid black;
-  color: white;
+  color: black;
   padding: 12px 20px;
   border-radius: 4px;
   cursor: pointer;
@@ -339,8 +317,8 @@ input[type=email], select, textarea {
 }
 
 .form_submit:hover {
-  background: white;
-  color: black;
+  background: black;
+  color: white;
   border: 1px solid black;
 }
 
