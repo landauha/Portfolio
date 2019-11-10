@@ -406,8 +406,8 @@ input[type=email], select, textarea {
 
   .flip-card {
     background-color: transparent;
-    width: inherit;
-    height: inherit;
+    width: 70%;
+    height: auto;
     border: 1px solid #9fd9fe;
     perspective: 1000px;
   }
