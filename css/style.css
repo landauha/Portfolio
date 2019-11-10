@@ -211,6 +211,10 @@ nav ul li a.active-page{
   height: auto;
 }
 
+#ND{
+  display: none;
+}
+
 .about_grid_text{
   padding-left: 20px;
   padding-right: 20px;
@@ -228,6 +232,38 @@ nav ul li a.active-page{
   color: #4b4b4b;
   font-size: 1em;
 }
+
+/* .flip-card {
+  background-color: transparent;
+  height: auto;
+  width: 70%;
+}
+
+.flip-card-inner {
+  position: relative;
+  height: auto;
+  width: 70%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-back {
+  height: 353px;
+  width: 277px;
+  transform: rotateY(180deg);
+} */
 
 /* End: for about.html */
 
@@ -341,6 +377,10 @@ input[type=email], select, textarea {
 
   #about_image{
     width: 60%;
+  }
+
+  #ND{
+    display: none;
   }
 
   .about_grid_image{
