@@ -215,6 +215,10 @@ nav ul li a.active-page{
   display: none;
 }
 
+.flip-card{
+  display: none;
+}
+
 .about_grid_text{
   padding-left: 20px;
   padding-right: 20px;
@@ -380,6 +384,10 @@ input[type=email], select, textarea {
   }
 
   #ND{
+    display: none;
+  }
+
+  .flip-card{
     display: none;
   }
 
