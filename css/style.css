@@ -5,7 +5,7 @@ html{
 body{
   background-color: #FFFFFF;
   font-size: 20px;
-  font-family: 'Bitter', serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .page_container{
@@ -111,7 +111,7 @@ nav ul li a.active-page{
 
 /* Beginning: for hero, not other pages */
 
-#hero{
+.hero{
   position: relative;
   top: 10vh;
 }
@@ -263,7 +263,7 @@ fieldset{
 
 label{
   color: black;
-  font-family: 'Bitter', serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
 }
 
@@ -335,7 +335,7 @@ input[type=email], select, textarea {
     padding: 20px 10vw 20px 10vw;
   }
 
-  #hero{
+  .hero{
     top: 20vh;
   }
 
@@ -385,7 +385,7 @@ input[type=email], select, textarea {
     padding: 20px 10vw 20px 10vw;
   }
 
-  #hero{
+  .hero{
     padding-top: 50%;
   }
 
